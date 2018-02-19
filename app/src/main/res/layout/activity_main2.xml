@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/puzzle"
+        android:minHeight="620dp"
+        android:minWidth="470dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVELS:"
+        android:id="@+id/level"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#faf8f8"
+        android:layout_marginLeft="130dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EASY"
+        android:layout_below="@+id/level"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="40sp"
+        android:id="@+id/easy"
+        android:background="#f51227"
+        android:height="60dp"
+        android:textSize="40dp"
+        android:width="180dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NORMAL"
+        android:layout_below="@+id/easy"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="25sp"
+        android:id="@+id/normal"
+        android:background="#ffe944"
+        android:height="60dp"
+        android:textSize="40dp"
+        android:width="180dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HARD"
+        android:layout_below="@+id/normal"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="25sp"
+        android:id="@+id/hard"
+        android:background="#66ff44"
+        android:height="60dp"
+        android:textSize="40dp"
+        android:width="180dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/con"
+        android:layout_below="@+id/hard"
+        android:text="BACK"
+        android:layout_marginTop="70sp"
+        android:layout_marginLeft="140sp"
+        android:background="#fb0cd9a9"
+        android:height="40dp"
+        android:textSize="23dp"
+        android:width="80dp"
+        android:textColor="#0e0e0e"
+        android:onClick="exit"
+        />
+
+</RelativeLayout>
